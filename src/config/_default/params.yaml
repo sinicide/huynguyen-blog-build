@@ -1,0 +1,45 @@
+contentTypeName: "blog"
+dateFormat: "January 2, 2006"
+rating: "general"
+displayPagination: 5
+archivePaginate: 365
+showToc: true
+rssfulltext: true
+showReadingTime: true
+shareLinks: true
+
+taxonomy:
+  tags: false
+  category: true
+
+# user defined
+author: "Huy Nguyen"
+email: ""
+contact: "https://keybase.io/sinicide/"
+
+socials:
+  - name: "Github"
+    url: "https://github.com/sinicide/"
+    title: "The codes"
+    icon: "fa-github"
+  - name: "Mastodon"
+    url: "https://techhub.social/@sinicide"
+    title: "The toots"
+    icon: "fa-mastodon"
+  - name: "Twitter"
+    url: "https://twitter.com/sinicide"
+    title: "The tweets"
+    icon: "fa-twitter"
+  - name: "Keybase"
+    url: "https://keybase.io/sinicide/"
+    title: "Verified!"
+    icon: "fa-keybase"
+
+share:
+  mastodon: false
+  twitter: true
+  facebook: true
+  reddit: true
+  linkedin: false
+  email: false
+  link: true

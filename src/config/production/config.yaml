@@ -1,0 +1,5 @@
+baseUrl: "https://huynguyen.me/"
+theme: "hugo-theme-hello-bulma"
+paginate: 10
+# robots.txt
+enableRobotsTXT: true

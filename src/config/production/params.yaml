@@ -1,0 +1,14 @@
+dateFormat: "2006-01-02"
+showMenuItems: 5
+rssLimit: 100
+
+github:
+  user: "sinicide"
+  contentRepo: "huynguyen-blog-content"
+
+logo:
+  logoText: "Huy Nguyen"
+  logoHomeLink: "/"
+  #or
+  #path: "/img/your-example-logo.svg"
+  #alt: "Your example logo alt text"

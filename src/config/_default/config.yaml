@@ -1,0 +1,18 @@
+language: "en"
+languageCode: "en-us"
+defaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+
+outputs:
+  home: ["html", "RSS"]
+
+outputFormats:
+  rss:
+    baseName: "rss"
+
+markup:
+  goldmark:
+    renderer:
+      # allows HTML in markdown files
+      unsafe: true
