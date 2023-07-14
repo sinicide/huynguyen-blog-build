@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Git log detected dubious ownership Issue, workaround with the following
+git config --global --add safe.directory '*'
+
 # Hugo Live Server
 #env HUGO_googleAnalytics="hello_world" \
 /bin/hugo server --watch \
