@@ -1,0 +1,6 @@
+[submodule "src/themes/hugo-theme-hello-bulma"]
+	path = src/themes/hugo-theme-hello-bulma
+	url = https://github.com/sinicide/hugo-theme-hello-bulma.git
+[submodule "src/content"]
+	path = src/content
+	url = https://github.com/sinicide/huynguyen-blog-content.git
