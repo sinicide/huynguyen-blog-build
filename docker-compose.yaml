@@ -1,0 +1,11 @@
+version: '3'
+services:
+  hugo-test:
+    image: huynguyen-blog-build:1.0
+    container_name: huynguyen-blog-build
+    ports:
+      - 1313:1313
+    environment:
+      HUGO_BUILD_ENVIRONMENT: "dev"
+    volumes:
+      - ./:/workdir
