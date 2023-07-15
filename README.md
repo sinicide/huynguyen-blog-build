@@ -1,24 +1,21 @@
 # huynguyen-blog-build
 This is the repo for huynguyen.me, my personal blog.
 
-## Running a local deployment
-```
-hugo server -D --bind <IP_ADDRESS> --baseURL=http://<IP_ADDRESS>
-```
-
-## Testing docker build
+## Make Dockerfile
+Used to stand up local development server (please note it defaults to dev environment, set `HUGO_BUILD_ENVIRONMENT=production` to deploy production)
 ```
 make build
 docker-compose up -d
 ```
 
 ## Tear down
+Stopping the local development server
 ```
 docker-compose down
-make clean
 ```
 
 ## For Production
+Include Environment Variables
 ```
 env HUGO_googleAnalytics="XXXXXX"
 ```
