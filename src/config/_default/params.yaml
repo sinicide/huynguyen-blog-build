@@ -39,10 +39,20 @@ socials:
     url: "https://keybase.io/sinicide/"
     title: "Verified!"
     icon: "fa-keybase"
+  - name: "Threads"
+    url: "https://www.threads.net/@sinicide"
+    title: "The Threads"
+    icon: "fa-at"
+  - name: "BlueSky"
+    url: "https://bsky.app/profile/sinicide.bsky.social"
+    title: "BlueSkies"
+    icon: "fa-cloud"
 
 share:
   mastodon: false
   twitter: true
+  threads: false
+  bluesky: false
   facebook: true
   reddit: true
   linkedin: false
