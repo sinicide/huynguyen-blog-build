@@ -42,7 +42,7 @@ socials:
   - name: "BlueSky"
     url: "https://bsky.app/profile/sinicide.bsky.social"
     title: "BlueSkies"
-    icon: "fa fa-cloud"
+    icon: "fa-solid fa-cloud"
 
 share:
   mastodon: false
