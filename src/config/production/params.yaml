@@ -13,6 +13,11 @@ logo:
   #path: "/img/your-example-logo.svg"
   #alt: "Your example logo alt text"
 
+analytics:
+  umami:
+    url: "https://analytics.us.umami.is/script.js"
+    id: "26007ea1-8052-4550-a9bf-761351d36912"
+
 # Language
 menuMore: "Show more"
 writtenBy: "Writte by"
@@ -23,3 +28,4 @@ olderPosts: "Older posts"
 minuteReadingTime: "minute read"
 dateFormatSingle: "2006-01-02"
 dateFormatList: "2006-01-02"
+
