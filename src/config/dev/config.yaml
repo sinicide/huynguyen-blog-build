@@ -3,3 +3,10 @@ paginate: 5
 ignoreErrors: ["error-remote-getjson"]
 # robots.txt
 enableRobotsTXT: true
+
+module:
+  mounts:
+    - source: content
+      target: content
+      excludeFiles:
+        - "templates/**"
