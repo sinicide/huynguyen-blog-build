@@ -16,7 +16,21 @@ taxonomy:
 title: "Huy Nguyen"
 subtitle: "I do things and sometimes I blog about it"
 description: "My personal website and blog documenting projects in regards to home lab, self-hosting and anything and everything of interest to me."
-keywords: [ "tech", "blog", "homelab", "self-hosted", "Artifical Intelligence", "Internet of Things", "Cloud", "Data Privacy", "Tech Tips and Tricks", "Software Development", "Tutorials", "Security" ]
+keywords:
+  [
+    "tech",
+    "blog",
+    "homelab",
+    "self-hosted",
+    "Artifical Intelligence",
+    "Internet of Things",
+    "Cloud",
+    "Data Privacy",
+    "Tech Tips and Tricks",
+    "Software Development",
+    "Tutorials",
+    "Security",
+  ]
 
 author: "Huy Nguyen"
 email: ""
@@ -40,7 +54,7 @@ socials:
     title: "The Threads"
     icon: "fa-brands fa-threads"
   - name: "BlueSky"
-    url: "https://bsky.app/profile/sinicide.bsky.social"
+    url: "https://bsky.app/profile/sinicide.net"
     title: "BlueSkies"
     icon: "fa-solid fa-cloud"
 
@@ -54,3 +68,4 @@ share:
   linkedin: false
   email: false
   link: true
+
