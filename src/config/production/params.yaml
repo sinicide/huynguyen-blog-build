@@ -15,7 +15,7 @@ logo:
 
 analytics:
   umami:
-    url: "https://analytics.us.umami.is/script.js"
+    url: "https://cloud.umami.is/script.js"
     id: "26007ea1-8052-4550-a9bf-761351d36912"
     share: "https://us.umami.is/share/dV8ZOg90fhWXpOdh/huynguyen.me"
 
