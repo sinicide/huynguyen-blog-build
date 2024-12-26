@@ -3,3 +3,11 @@ theme: "hugo-theme-hello-bulma"
 paginate: 10
 # robots.txt
 enableRobotsTXT: true
+
+module:
+  mounts:
+    - source: content
+      target: content
+      excludeFiles:
+        - "templates/**"
+
