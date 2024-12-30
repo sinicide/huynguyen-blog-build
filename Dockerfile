@@ -9,6 +9,16 @@ ENV HUGO_BUILD_ENVIRONMENT default
 ENV HUGO_BUILD_SRC /workdir/src
 ENV HUGO_BUILD_DEST /workdir/generated
 ENV HUGO_PORT 1313
+ENV DART_SASS_VERSION 1.83.0
+ENV DART_SASS_FILENAME dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+ENV DART_SASS_URL https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/${DART_SASS_FILENAME}
+
+# download Dart Sass
+RUN cd /tmp && \
+curl -O -L ${DART_SASS_URL} && \
+tar -xf ${DART_SASS_FILENAME} && \
+cp -r /tmp/dart-sass/* /usr/local/bin && \
+rm -rf /tmp/dart-sass*
 
 # download hugo
 RUN cd /tmp && \
