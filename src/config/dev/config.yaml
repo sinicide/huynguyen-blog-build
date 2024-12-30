@@ -1,5 +1,6 @@
 theme: "hugo-theme-hello-bulma"
-paginate: 5
+pagination:
+  pagerSize: 5
 ignoreErrors: ["error-remote-getjson"]
 # robots.txt
 enableRobotsTXT: true

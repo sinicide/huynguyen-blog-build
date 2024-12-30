@@ -1,6 +1,7 @@
 baseUrl: "https://huynguyen.me"
 theme: "hugo-theme-hello-bulma"
-paginate: 10
+pagination:
+  pagerSize:
 # robots.txt
 enableRobotsTXT: true
 
@@ -10,4 +11,3 @@ module:
       target: content
       excludeFiles:
         - "templates/**"
-
